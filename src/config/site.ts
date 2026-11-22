@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "Cep Kapında",
+  name: "iPad Tamir Hemen",
   url: "https://ipadtamirhemen.com.tr",
-  title: "iPad Tamiri | Cep Kapında",
+  title: "iPad Tamir Hemen | İstanbul iPad Tamiri",
   phone: "0 531 857 60 60",
   email: "cepkapinda@gmail.com",
   addresses: [

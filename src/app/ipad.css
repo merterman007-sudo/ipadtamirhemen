@@ -20,3 +20,9 @@ body:has(.ipad-site){background:#fff;padding-bottom:0}.ipad-site{--blue:#0766e8;
 html:has(.ipad-site),body:has(.ipad-site){overflow-x:clip;overflow-y:visible}.ipad-site .ips-copy h2>span:first-child{color:#1b2330}.ips-device{top:19%}.ips-stage .ips-caption{bottom:-8px}.ips-replay{margin-right:150px}
 @media(max-width:780px){.ips-replay{margin-right:0}.ips-device{top:25%}.ips-stage .ips-caption{bottom:3px}.ips-bottom{padding-right:0}.ips-inner .ips-hint{padding-right:130px;min-height:28px;display:flex;align-items:center}.ips-sticky{min-height:650px}}
 @media(max-height:740px) and (max-width:780px){.ips-sticky{min-height:590px}.ips-inner{padding-top:16px;padding-bottom:12px}.ips-layout{padding-top:16px}.ips-copy h2{font-size:28px;margin-block:10px}.ips-copy .ips-description{font-size:14px;line-height:1.6;min-height:70px}.ips-stage{min-height:150px}.ips-device{width:68%;left:16%;top:22%}.ips-top{padding-bottom:12px}.ips-inner .ips-hint{margin-block:7px;min-height:28px}.ips-bottom{margin-top:8px}.ips-watermark{font-size:52px}}
+
+/* iPad Tamir Hemen identity */
+.ith-brand{display:inline-flex;align-items:center;flex-shrink:0;width:214px;line-height:0}.ith-brand>img{display:block;width:100%;height:auto}.ip-header{gap:22px}.ip-header nav{gap:22px}.ip-footer-top .ith-brand{width:195px}.ip-footer-top{gap:24px}
+@media(min-width:781px) and (max-width:1100px){.ith-brand{width:184px}.ip-header nav{gap:12px;font-size:13px}.ip-header{gap:16px}}
+@media(max-width:780px){.ith-brand{width:190px}.ip-header{gap:12px}.ip-header-button{flex-shrink:0;padding-inline:16px}.ip-footer-top .ith-brand{width:180px}.ip-footer-top>a:last-child{font-size:13px}}
+@media(max-width:370px){.ith-brand{width:157px}.ip-header{gap:8px}.ip-header-button{font-size:12px;padding-inline:13px}.ip-menu-button{min-width:32px;padding-left:0}.ip-footer-top .ith-brand{width:158px}.ip-footer-top>a:last-child{font-size:12px;gap:5px}}
