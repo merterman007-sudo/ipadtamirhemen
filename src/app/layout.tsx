@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { MeasurementConsent } from "@/components/measurement-consent";
 import "./globals.css";
 import "./ipad.css";
 
@@ -17,5 +18,5 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { width:"device-width",initialScale:1,themeColor:"#0766e8" };
 export default function RootLayout({children}:{children:React.ReactNode}) {
  const schema={"@context":"https://schema.org","@type":"LocalBusiness","@id":`${url}/#business`,name:"iPad Tamir Hemen",alternateName:"Cep Kapında iPad Onarımı",logo:`${url}/brand/ipad-tamir-hemen-logo.svg`,url,telephone:"+905318576060",email:"cepkapinda@gmail.com",description:"İstanbul’da bağımsız iPad onarımı; ekran, batarya ve şarj sorunlarında teknik değerlendirme.",areaServed:{"@type":"City",name:"İstanbul"},address:{"@type":"PostalAddress",streetAddress:"Şişli Telefoncular Sokağı 178/A",addressLocality:"Şişli",addressRegion:"İstanbul",addressCountry:"TR"},sameAs:["https://cepkapinda.com","https://www.instagram.com/cepkapinda"]};
- return <html lang="tr"><body><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema).replace(/</g,"\\u003c")}}/>{children}</body></html>;
+ return <html lang="tr"><body><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema).replace(/</g,"\\u003c")}}/>{children}<MeasurementConsent/></body></html>;
 }
